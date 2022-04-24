@@ -1,0 +1,49 @@
+ 
+  .modal {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    height: 40vh;
+    width: 40vw;
+    top: 30vh;
+    left: 30%;
+    border-radius: 5vh;
+    z-index: 100;
+  }
+  
+  .header {
+    width: 100%;
+    text-align: center;
+    background-color: #E27D60;
+    padding: 1%;
+    color: white;
+    font-family: sans-serif;
+    margin: 5% 0;
+  }
+  
+  .content {
+    color: #E27D60;
+    font-size: 1em;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  
+  .actions {
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+  .bottomMessage{
+    text-align: center;
+    padding: 0;
+    color: #E27D60;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+  }

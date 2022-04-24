@@ -1,0 +1,32 @@
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 5vh;
+    /* background-color: red; */
+}
+
+.listItem{
+    margin: 0 12px;
+    height: 8px;
+    width: 25px;
+    /* border: 1px solid #E27D60; */
+    border-radius: 2px;
+    transition: all .2s ease-in-out;
+    /* background-color: #E27D60; */
+}
+
+.listItem:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.active{
+    background-color: #41B3A3;
+    width: 70px;
+}
+
+.inactive{
+    background-color: white;
+}
